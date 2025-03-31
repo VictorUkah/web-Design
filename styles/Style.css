@@ -1,0 +1,140 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A50044;
+    color: rgb(251, 252, 252);
+}
+.project-info {
+    text-align: center;
+    background-color: #FFD700;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1100;
+}
+header {
+    background-color: #004D98;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around ;
+    width: 100%;
+    top: 40px;
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FFD700;
+    
+}
+nav ul li a:hover {
+    background-color: #A50044;
+}
+main {
+    margin-top: 90px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content {
+    flex: 1;
+    max-width: 60%;
+}
+article {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+.map-container {
+    margin-top: 20px;
+}
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    
+}
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 30%;
+    margin-left: auto;
+    text-align: left;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+.contact-form button {
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #A50044;
+    color: white;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form .required {
+    color: red;
+}
+.video-container {
+    margin-top: 20px;}
+    .wins-losses {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    }
+    
+    
+    
+footer {
+    background-color: #004D98;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    position: relative; 
+    margin: 0;
+    border: 1px solid #FFD700;
+}

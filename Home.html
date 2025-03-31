@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--This is comments
+Date Created Jan 2020
+Purpose : Template html5 web page-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Home Page">
+    <meta name="keywords" content="Section, Article, Footer">
+    <title>FC Barcelona</title>
+    <link rel="stylesheet" href="Styles/style.css">
+ 
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="project-info">This is a college project</div>
+    <header>
+        <img style="margin-left: 10px;" src="Images/barca logo.png" alt="Barcelona Club Badge" width="90">
+        <h1>Barcelona Club Info</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="Achievments.html">Achievements</a></li>
+                <li><a href="Legends.html">Legends</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a id="top"></a>
+        <a href="#bottom">Scroll to Bottom</a>
+    <main>
+        <div class="content">
+            <aside><strong>Disclaimer:</strong> This is a college project and is not affiliated with or endorsed by FC Barcelona.</aside>
+            <article>
+                <h2>About Barcelona</h2>
+                <p>Barcelona is one of the most successful football clubs in the world, known for its history, achievements, and legendary players.</p>
+            </article>
+            <Section class="video-container">
+                <h2>FC Barcelona Highlights</h2>
+                <video width="800" controls>
+                    <source src="Video/VideoBarca.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            <div class="map-container">
+                <h2>Camp Nou Stadium Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.2746398955933!2d2.1202943765419277!3d41.38089677131292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987b4007fa0f%3A0x9f494dd74b2eb0e0!2sSpotify%20Camp%20Nou!5e0!3m2!1sen!2s!4v1711914822568!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="http:/foo.com" method="get">
+                <label for="name">Your Name<span class="required">*</span></label>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <label for="email">Your Email<span class="required">*</span></label>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <label for="message">Your Message<span class="required">*</span></label>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <a id="bottom"></a>
+        <a href="#top">Scroll to Top</a>
+    <footer>
+        &copy; 2025 Barcelona Club Info - All Rights Reserved
+    </footer>
+</body>
